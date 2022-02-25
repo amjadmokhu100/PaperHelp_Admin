@@ -13,10 +13,10 @@ namespace PaperHelp_Admin.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PaperHelpDbEntities : DbContext
+    public partial class PaperHelpDbEntities1 : DbContext
     {
-        public PaperHelpDbEntities()
-            : base("name=PaperHelpDbEntities")
+        public PaperHelpDbEntities1()
+            : base("name=PaperHelpDbEntities1")
         {
         }
     
