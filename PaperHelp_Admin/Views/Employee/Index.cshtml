@@ -1,0 +1,222 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<div class="container-fluid">
+
+    <!-- start page title -->
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <div class="page-title-right">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Main</a></li>
+                        <li class="breadcrumb-item active">Employees</li>
+                    </ol>
+                </div>
+                <h4 class="page-title">Employees</h4>
+            </div>
+        </div>
+    </div>
+    <!-- end page title -->
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-sm-4">
+                            <a href="@Url.Action("Add","Employee")" class="btn btn-danger mb-2"><i class="mdi mdi-plus-circle me-2"></i> Add Employee</a>
+                        </div>
+
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-centered table-striped dt-responsive nowrap w-100" id="products-datatable">
+                            <thead>
+                                <tr>
+                                    <th style="width: 20px;">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck1">
+                                            <label class="form-check-label" for="customCheck1">&nbsp;</label>
+                                        </div>
+                                    </th>
+                                    <th>Customer</th>
+                                    <th>Phone</th>
+                                    <th>Email</th>
+                                    <th>Location</th>
+                                    <th>Create Date</th>
+                                    <th>Status</th>
+                                    <th style="width: 75px;">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck2">
+                                            <label class="form-check-label" for="customCheck2">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td class="table-user">
+                                        <a href="javascript:void(0);" class="text-body fw-semibold">Wedad</a>
+                                    </td>
+                                    <td>
+                                        055 6013 3854
+                                    </td>
+                                    <td>
+                                        Wedad@hotmail.com
+                                    </td>
+                                    <td>
+                                        Saudi Arabia
+                                    </td>
+                                    <td>
+                                        08/23/2022
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-success-lighten">Active</span>
+                                    </td>
+
+                                    <td>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck10">
+                                            <label class="form-check-label" for="customCheck10">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    <td class="table-user">
+                                        <a href="javascript:void(0);" class="text-body fw-semibold">Wed</a>
+                                    </td>
+                                    <td>
+                                        055 76 298 896
+                                    </td>
+                                    <td>
+                                        Wed@gmail.com
+                                    </td>
+                                    <td>
+                                        Saudi Arabia
+                                    </td>
+                                    <td>
+                                        05/06/2022
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-success-lighten">Active</span>
+                                    </td>
+
+                                    <td>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck11">
+                                            <label class="form-check-label" for="customCheck11">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    <td class="table-user">
+                                        <a href="javascript:void(0);" class="text-body fw-semibold">Sara</a>
+                                    </td>
+                                    <td>
+                                        055 6157 4248
+                                    </td>
+                                    <td>
+                                        Sara@outlook.com
+                                    </td>
+                                    <td>
+                                        Saudi Arabia
+                                    </td>
+                                    <td>
+                                        04/09/2022
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-success-lighten">Active</span>
+                                    </td>
+
+                                    <td>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck12">
+                                            <label class="form-check-label" for="customCheck12">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    <td class="table-user">
+                                        <a href="javascript:void(0);" class="text-body fw-semibold">Labeeb Ghali</a>
+                                    </td>
+                                    <td>
+                                        050 414 8778
+                                    </td>
+                                    <td>
+                                        labebswad@teleworm.us
+                                    </td>
+                                    <td>
+                                        United Kingdom
+                                    </td>
+                                    <td>
+                                        06/19/2018
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-success-lighten">Active</span>
+                                    </td>
+
+                                    <td>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="customCheck13">
+                                            <label class="form-check-label" for="customCheck13">&nbsp;</label>
+                                        </div>
+                                    </td>
+                                    <td class="table-user">
+                                        <a href="javascript:void(0);" class="text-body fw-semibold">Amjad</a>
+                                    </td>
+                                    <td>
+                                        055 5054 8877
+                                    </td>
+                                    <td>
+                                        amjed@outlook.com
+                                    </td>
+                                    <td>
+                                        Saudi Arabia
+                                    </td>
+                                    <td>
+                                        03/24/2022
+                                    </td>
+                                    <td>
+                                        <span class="badge badge-danger-lighten">Blocked</span>
+                                    </td>
+
+                                    <td>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                        <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- end card-body-->
+            </div> <!-- end card-->
+        </div> <!-- end col -->
+    </div>
+    <!-- end row -->
+
+</div> <!-- container -->
